@@ -96,14 +96,13 @@ class _MyHomePageState extends State<MyHomePage> {
                         hintText: 'CPF',
                         hintStyle: TextStyle(color: Colors.grey),
                       ),
-                      textInputAction: TextInputAction.next,
-                    // focusNode: _contratoFocus,
+                      textInputAction: TextInputAction.next,                   
                       onFieldSubmitted: (term) {
-                        //_fieldFocusChange(context, _contratoFocus, _senhaFocus);
+
                       },
                       validator: (value) {
                         if (value!.isEmpty) {
-                          //mensagem = "";
+                         
                           return "Informe o CPF!";
                         }
                       },
@@ -122,7 +121,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Row(
                         children: <Widget>[
                           const Padding(
-                            // ignore: unnecessary_const
                             padding: const EdgeInsets.only(left: 20.0),
                             child: Text(
                               "ENTRAR",

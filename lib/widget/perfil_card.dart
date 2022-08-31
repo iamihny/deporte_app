@@ -52,14 +52,6 @@ class _State extends State<Perfil_card> {
                           color: Colors.white
                         ),
                       ), 
-                      /*                     
-                      Text(
-                        widget.cpf,
-                        style: const TextStyle(
-                          fontSize: 13,
-                          color: Colors.black45,
-                        ),
-                      ),*/
                     ],
                   ),
                 ),
