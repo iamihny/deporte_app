@@ -5,7 +5,23 @@ Aplicativo desenvolvido em Flutter e Firebase para Barbearia Deporte :
  Registro de Serviços,
  Clientes acumulam pontos e podem trocar por Prêmios
 
-## Getting Started
+## Ambiente de Desenvolvimento
+
+Versão do Flutter utilizada : Flutter 3.1.0-0.0.pre.2588
+
+Para executar o projeto use o Flutter Console 
+Acesse a pasta do projeto pelo console
+cd PASTA_DO_PROJETO
+
+Utilize o comando : flutter run --no-sound-null-safety
+O projeto pode ser executado no chrome para fins de teste
+
+## FIREBASE
+Para criar uma nova base de dados e configurações de conexão pode ser acessada a documentação do 
+Firebase em : https://console.firebase.google.com/
+
+
+## TELAS DO SISTEMA
 
 Protótipo da tela inicial 
 
@@ -17,8 +33,8 @@ Menu Inicial do aplicativo
 
 Tela de Clientes : Cadastro de clientes, pesquisa, gerencia os pontos dos Clientes
 
-<img src="https://user-images.githubusercontent.com/51917707/187697924-6c0ab3e9-381e-400c-a168-ed9b41893c40.jpeg" />
-<img src="https://user-images.githubusercontent.com/51917707/187699054-ab86f26f-39e1-4b17-a063-9d004aa1b04c.jpeg" />
+<img src="https://user-images.githubusercontent.com/51917707/187733568-57ee7d5f-bdd8-4b9d-b26e-ab35a6889b08.jpeg" />
+<img src="https://user-images.githubusercontent.com/51917707/187733665-5f641a54-9240-40cd-9fe2-a1cbcf71e0a9.jpeg" />
 
 Tela de Serviços : Cadastro de serviços e da pontuação acumulada pelo cliente ao utilizar o serviço 
 
