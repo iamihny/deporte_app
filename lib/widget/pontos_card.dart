@@ -46,9 +46,7 @@ class _PontosCardState extends State<PontosCard> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               // ignore: deprecated_member_use
-                              FlatButton(                
-                                height: 50,
-                                color: Colors.blueGrey, 
+                              ElevatedButton(   
                                 onPressed: (){ 
                                   var soma;
                                   total = cliente['pontos'];
@@ -59,9 +57,7 @@ class _PontosCardState extends State<PontosCard> {
                                 child: const Text('Adicionar Pontos', style: TextStyle(color: Colors.white))
                               ),
                               // ignore: deprecated_member_use
-                              FlatButton(
-                                height: 50,
-                                color: Colors.blueGrey,                 
+                              ElevatedButton(                 
                                 onPressed: (){  
                                   var sub;
                                   total = cliente['pontos'];

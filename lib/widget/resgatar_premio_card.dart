@@ -50,9 +50,7 @@ class _Resgatar_card extends State<Resgatar_card> {
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               // ignore: deprecated_member_use
-                              FlatButton(
-                                height: 50,
-                                color: Colors.blueGrey,                 
+                              ElevatedButton(              
                                 onPressed: (){  
                                   var sub;
                                   total = cliente['pontos'];

@@ -167,8 +167,7 @@ class _ClienteState extends State<Cliente> {
       child: Container(
         height: 50,
         color: Colors.blueGrey,
-        // ignore: deprecated_member_use
-        child: FlatButton(
+        child: ElevatedButton(
           onPressed: () async { 
             await showDialog(
               context: context,

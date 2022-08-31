@@ -117,12 +117,7 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: const EdgeInsets.only(left: 20.0, right: 20.0),
               child: Row(children: <Widget>[
                 Expanded(
-                    // ignore: deprecated_member_use
-                    child: FlatButton(
-                      shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(40.0)),
-                      splashColor: Colors.blueGrey,
-                      color: Colors.blueGrey,
+                    child: ElevatedButton(
                       child: Row(
                         children: <Widget>[
                           const Padding(
@@ -140,16 +135,9 @@ class _MyHomePageState extends State<MyHomePage> {
                             offset: const Offset(15.0, 0.0),
                             child: Container(
                               padding: const EdgeInsets.all(5.0),
-                              // ignore: deprecated_member_use
-                              child: FlatButton(
-                                shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(40.0)),
-                                splashColor: Colors.white,
-                                color: Colors.white,
-                                // ignore: prefer_const_constructors
+                              child: ElevatedButton(
                                 child: Icon(
                                   Icons.arrow_forward,
-                                  // ignore: prefer_const_constructors
                                   color: Color.fromRGBO(38, 97, 169, 1),
                                 ),
                                 onPressed: () {

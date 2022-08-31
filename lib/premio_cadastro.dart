@@ -57,9 +57,8 @@ class _PremioCadastroState extends State<PremioCadastro> {
           ),
           const SizedBox(height: 20),
           // ignore: deprecated_member_use
-          FlatButton( 
+          ElevatedButton( 
             child: const Text("Salvar", style: TextStyle(color: Colors.white)),
-            color: Colors.blueGrey,
             onPressed: () { 
               Firestore.instance.collection('premio').
               document().setData({'premio': controllerPremio.text, 'valor' : controllerValor.text });

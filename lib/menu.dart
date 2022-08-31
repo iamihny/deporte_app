@@ -28,13 +28,7 @@ class _MenuState extends State<Menu> {
             children: [              
               const SizedBox(height: 50),
               // ignore: deprecated_member_use
-              FlatButton(
-                height: 100,
-                color: Colors.blueGrey,
-                // ignore: avoid_unnecessary_containers
-                // ignore: sized_box_for_whitespace
-                // ignore: avoid_unnecessary_containers
-                // ignore: sized_box_for_whitespace
+              ElevatedButton(
                 child: Container(
                   width: 100,
                   child: Center(
@@ -52,16 +46,10 @@ class _MenuState extends State<Menu> {
                 },
               ),
               // ignore: deprecated_member_use
-              FlatButton(
-                height: 100,
-                color: Colors.blueGrey,
-                // ignore: avoid_unnecessary_containers
-                // ignore: sized_box_for_whitespace
-                // ignore: avoid_unnecessary_containers
+              ElevatedButton(
                 child: Container(
                   child: Center(
                     child: Column(
-                      // ignore: prefer_const_literals_to_create_immutables
                       children: [
                         const Icon(Icons.content_cut, color: Colors.white), 
                         const Text('Produtos e Serviços', style: TextStyle(color: Colors.white)),
@@ -74,16 +62,10 @@ class _MenuState extends State<Menu> {
                 },
               ),  
               // ignore: deprecated_member_use
-              FlatButton(
-                height: 100,
-                color: Colors.blueGrey,
-                // ignore: avoid_unnecessary_containers
-                // ignore: sized_box_for_whitespace
-                // ignore: avoid_unnecessary_containers
+              ElevatedButton(
                 child: Container(
                   child: Center(
                     child: Column(
-                      // ignore: prefer_const_literals_to_create_immutables
                       children: [
                         const Icon(Icons.star_rate_rounded, color: Colors.white), 
                         const Text('Prêmios', style: TextStyle(color: Colors.white)),

@@ -57,9 +57,8 @@ class _ServicoCadastroState extends State<ServicoCadastro> {
           ),
           const SizedBox(height: 20),
           // ignore: deprecated_member_use
-          FlatButton( 
+          ElevatedButton( 
             child: const Text("Salvar", style: TextStyle(color: Colors.white)),
-            color: Colors.blueGrey,
             onPressed: () { 
               Firestore.instance.collection('servico').
               document().setData({'servico': controllerServico.text, 'pontos' : controllerPontos.text });

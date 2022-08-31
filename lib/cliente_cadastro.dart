@@ -77,9 +77,8 @@ class _ClienteCadastroState extends State<ClienteCadastro> {
           ),
           const SizedBox(height: 20),
           // ignore: deprecated_member_use
-          FlatButton( 
+          ElevatedButton( 
             child: const Text("Salvar", style: TextStyle(color: Colors.white)),
-            color: Colors.blueGrey,
             onPressed: () { 
               Firestore.instance.collection('barbearia').
               document(controllerCPF.text).setData({'nome': controllerNome.text, 'cpf' : controllerCPF.text, 'telefone' : controllerTelefone.text, 'pontos': 0 });
