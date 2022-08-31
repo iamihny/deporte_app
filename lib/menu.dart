@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
 
 class Menu extends StatefulWidget {
   const Menu({ Key? key }) : super(key: key);
@@ -42,7 +44,7 @@ class _MenuState extends State<Menu> {
                   ),
                 ),
                 onPressed: () {  
-                  Navigator.of(context).pushNamed('cliente');
+                  Get.toNamed('/cliente');
                 },
               ),
               // ignore: deprecated_member_use
@@ -58,7 +60,7 @@ class _MenuState extends State<Menu> {
                 ),
                 ), 
                 onPressed: () {  
-                  Navigator.of(context).pushNamed('servico');
+                  Get.toNamed('/servico');
                 },
               ),  
               // ignore: deprecated_member_use
@@ -74,7 +76,7 @@ class _MenuState extends State<Menu> {
                 ),
                 ), 
                 onPressed: () {  
-                  Navigator.of(context).pushNamed('premio');
+                  Get.toNamed('/premio');
                 },
               ),                           
             ],

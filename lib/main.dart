@@ -3,6 +3,7 @@ import 'package:deporte_app/perfil.dart';
 import 'package:deporte_app/premio.dart';
 import 'package:deporte_app/servico.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import 'cliente.dart';
 import 'menu.dart';
@@ -17,21 +18,29 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
       home: const MyHomePage(title: 'Deporte Barbearia'),
-      routes: <String , WidgetBuilder> {
+      getPages:[
+        GetPage(name: '/menu', page: () => Menu()),
+        GetPage(name: '/perfil', page: () => Perfil()),
+        GetPage(name: '/cliente', page: () => Cliente()),
+        GetPage(name: '/clientepontos', page: () => ClientePontos()),
+        GetPage(name: '/servico', page: () => Servico()),
+        GetPage(name: '/premio', page: () => Premio()),
+      ]
+     /* routes: <String , WidgetBuilder> {
         "menu" : (BuildContext context) => const Menu(),
         "perfil" :  (BuildContext context) => const Perfil(),
         "cliente" : (BuildContext context) => const Cliente(),
         "clientepontos" : (BuildContext context) => const ClientePontos(),
         "servico" : (BuildContext context) => const Servico(),
         "premio" : (BuildContext context) => const Premio(),
-      },
+      },*/
     );
   }
 }
