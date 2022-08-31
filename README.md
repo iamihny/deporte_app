@@ -1,9 +1,9 @@
 # deporte_app
 
-Aplicativo desenvolvido em Flutter e Firebase para Barbearia Deporte :
- Cadastro de Clientes,
- Registro de Serviços,
- Clientes acumulam pontos e podem trocar por Prêmios
+Aplicativo desenvolvido em Flutter e Firebase para Barbearia Deporte : <br/>
+ Cadastro de Clientes, <br/>
+ Registro de Serviços, <br/>
+ Clientes acumulam pontos e podem trocar por Prêmios <br/>
 
 ## Ambiente de Desenvolvimento
 
