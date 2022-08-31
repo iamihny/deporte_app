@@ -9,15 +9,15 @@ Aplicativo desenvolvido em Flutter e Firebase para Barbearia Deporte :
 
 Versão do Flutter utilizada : Flutter 3.1.0-0.0.pre.2588
 
-Para executar o projeto use o Flutter Console 
-Acesse a pasta do projeto pelo console
-cd PASTA_DO_PROJETO
+Para executar o projeto use o Flutter Console <br/>
+Acesse a pasta do projeto pelo console <br/>
+cd PASTA_DO_PROJETO <br/>
 
-Utilize o comando : flutter run --no-sound-null-safety
-O projeto pode ser executado no chrome para fins de teste
+Utilize o comando : flutter run --no-sound-null-safety<br/>
+O projeto pode ser executado no chrome para fins de teste<br/>
 
 ## FIREBASE
-Para criar uma nova base de dados e configurações de conexão pode ser acessada a documentação do 
+Para criar uma nova base de dados e configurações de conexão pode ser acessada a documentação do <br/>
 Firebase em : https://console.firebase.google.com/
 
 
