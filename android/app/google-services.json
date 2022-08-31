@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "732606217030",
-    "project_id": "deporte-95640",
-    "storage_bucket": "deporte-95640.appspot.com"
+    "project_number": "1076765093101",
+    "project_id": "barbeariademo",
+    "storage_bucket": "barbeariademo.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:732606217030:android:f7a3d820ed1782a542c347",
+        "mobilesdk_app_id": "1:1076765093101:android:7f92431f3c0db14f4a70e4",
         "android_client_info": {
           "package_name": "com.example.deporte_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "732606217030-n6gqujdfmu59lm6j2loq926fcaa6ls1n.apps.googleusercontent.com",
+          "client_id": "1076765093101-ist7e4ks4fcjjppaac24c3rqf62l0nii.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAo-I8tVnR3-yddV-jceks9mentRrym5Do"
+          "current_key": "AIzaSyBhHlMMUvZbpHPAofkEFWR3JwLeYWiYU4w"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "732606217030-n6gqujdfmu59lm6j2loq926fcaa6ls1n.apps.googleusercontent.com",
+              "client_id": "1076765093101-ist7e4ks4fcjjppaac24c3rqf62l0nii.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -33,14 +33,6 @@ class MyApp extends StatelessWidget {
         GetPage(name: '/servico', page: () => Servico()),
         GetPage(name: '/premio', page: () => Premio()),
       ]
-     /* routes: <String , WidgetBuilder> {
-        "menu" : (BuildContext context) => const Menu(),
-        "perfil" :  (BuildContext context) => const Perfil(),
-        "cliente" : (BuildContext context) => const Cliente(),
-        "clientepontos" : (BuildContext context) => const ClientePontos(),
-        "servico" : (BuildContext context) => const Servico(),
-        "premio" : (BuildContext context) => const Premio(),
-      },*/
     );
   }
 }
